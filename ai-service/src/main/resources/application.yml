@@ -1,0 +1,17 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: ai-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        username: nacos
+        password: nacos
+# ?? AI ???? API ??
+# 阿里云 API 配置
+aliyun:
+  api-key: sk-2e2b9e9e5dc74b5ba814bf768ea5559a  # 替换为你的 API Key
+  model: qwen-plus  # 使用的模型名称

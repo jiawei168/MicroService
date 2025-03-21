@@ -1,7 +1,6 @@
 package top.zjw.aiservice.controller;
 
 import jakarta.annotation.Resource;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import top.zjw.aiservice.service.AiService;
 

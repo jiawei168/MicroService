@@ -15,3 +15,10 @@ spring:
 aliyun:
   api-key: sk-2e2b9e9e5dc74b5ba814bf768ea5559a  # 替换为你的 API Key
   model: qwen-plus  # 使用的模型名称
+
+  ocr:
+    app-key: "204835240"
+    app-secret: "PYAT6QeZDZoZg1YUL6GHLrKpWo2VmTxH"
+    app-code: "62c5da27343148b7905d946882de5f7a"
+    region-id: "cn-shanghai"
+    endpoint: "https://ocr.cn-shanghai.aliyuncs.com"

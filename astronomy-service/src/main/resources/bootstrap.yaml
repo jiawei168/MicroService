@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: astronomy-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        username: nacos
+        password: nacos
+      config:
+        server-addr: localhost:8848
+        username: nacos
+        password: nacos
+        file-extension: yaml
+        group: zjw
+        shared-configs:
+          - data-id: database-config-${spring.profiles.active}.yaml
+            group: zjw
+            refresh: true
